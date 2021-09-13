@@ -52,6 +52,11 @@ const App = ({ Component, pageProps }) => {
 
               return createForm(formConfig);
             }}
+            tinaioConfig={{
+              baseUrl: 'kelly.tinajs.dev',
+              // contentApiUrl: 'content.kelly.tinajs.dev',
+              // identityApiUrl: 'identity.kelly.tinajs.dev'
+            }}
             {...pageProps}
           >
             {(livePageProps) => (

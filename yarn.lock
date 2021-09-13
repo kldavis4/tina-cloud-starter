@@ -1994,7 +1994,7 @@
     lodash.merge "^4.6.2"
     lodash.uniq "^4.5.0"
 
-"@tinacms/auth@^0.50.1":
+"@tinacms/auth@0.50.1":
   version "0.50.1"
   resolved "https://registry.yarnpkg.com/@tinacms/auth/-/auth-0.50.1.tgz#47ee8fd6fb235de07d30802076391a9221f9270e"
   integrity sha512-lXlH2Y+ffRAHejvw2TGUU+LO+R5MBYcaxb7uE9dr5jgVURCqRRVLiuwSz4o8WgfwUb5cni+wFHCZVHjqT3e0kQ==
@@ -2071,6 +2071,39 @@
     ws "^7.3.1"
     yup "^0.32.9"
 
+"@tinacms/toolkit@0.0.0-2021813202511":
+  version "0.0.0-2021813202511"
+  resolved "https://registry.yarnpkg.com/@tinacms/toolkit/-/toolkit-0.0.0-2021813202511.tgz#cef6d9b7f7da27d941082e2e434daf0730e231ca"
+  integrity sha512-zsrCeS/CRvksAX3Z6F1mWyyy4CUa9bdW5hwbvIOx/wE8aluYFOuV6B/UJVzMZNL9Ddk7AB2hWKglVhP0Kcj/sw==
+  dependencies:
+    "@sambego/storybook-styles" "^1.0.0"
+    "@types/atob" "^2.1.2"
+    "@types/cors" "^2.8.12"
+    "@types/express" "^4.17.13"
+    "@types/multer" "^1.4.7"
+    "@types/prop-types" "^15.7.4"
+    atob "2.1.2"
+    color-string "^1.5.3"
+    cors "^2.8.5"
+    express "^4.17.1"
+    final-form "^4.20.2"
+    final-form-arrays "^3.0.1"
+    lodash.get "^4.4.2"
+    moment ">=2 <=3"
+    multer "1.4.2"
+    path "^0.12.7"
+    prop-types "15.7.2"
+    react-beautiful-dnd "^11.0.5"
+    react-color "^2.17.3"
+    react-datetime "^2.16.3"
+    react-dismissible "^1.3.0"
+    react-dropzone "10.1.8"
+    react-final-form "^6.3.0"
+    simple-git "1.126.0"
+    tsup "^3.7.0"
+    typescript "^4.3.5"
+    webfontloader "1.6.28"
+
 "@tinacms/toolkit@0.52.3":
   version "0.52.3"
   resolved "https://registry.yarnpkg.com/@tinacms/toolkit/-/toolkit-0.52.3.tgz#bfcaa3e44d8475f681520614ad95b46a90dc4303"
@@ -2091,39 +2124,6 @@
     lodash.get "^4.4.2"
     moment ">=2 <=3"
     multer "1.4.2"
-    prop-types "15.7.2"
-    react-beautiful-dnd "^11.0.5"
-    react-color "^2.17.3"
-    react-datetime "^2.16.3"
-    react-dismissible "^1.3.0"
-    react-dropzone "10.1.8"
-    react-final-form "^6.3.0"
-    simple-git "1.126.0"
-    tsup "^3.7.0"
-    typescript "^4.3.5"
-    webfontloader "1.6.28"
-
-"@tinacms/toolkit@0.53.0":
-  version "0.53.0"
-  resolved "https://registry.yarnpkg.com/@tinacms/toolkit/-/toolkit-0.53.0.tgz#2dbea38030d8e7163854ffa57f6a4c005c3f54b6"
-  integrity sha512-uZuRrzfZpuJ7kepFUA77wp9f40rKQJzXwQPcni16tXRDm83Sq7bCeY9nOn7lm4VtNN8Uz26Nfq0MUz6FvhJQdg==
-  dependencies:
-    "@sambego/storybook-styles" "^1.0.0"
-    "@types/atob" "^2.1.2"
-    "@types/cors" "^2.8.12"
-    "@types/express" "^4.17.13"
-    "@types/multer" "^1.4.7"
-    "@types/prop-types" "^15.7.4"
-    atob "2.1.2"
-    color-string "^1.5.3"
-    cors "^2.8.5"
-    express "^4.17.1"
-    final-form "^4.20.2"
-    final-form-arrays "^3.0.1"
-    lodash.get "^4.4.2"
-    moment ">=2 <=3"
-    multer "1.4.2"
-    path "^0.12.7"
     prop-types "15.7.2"
     react-beautiful-dnd "^11.0.5"
     react-color "^2.17.3"
@@ -10649,15 +10649,15 @@ timsort@^0.3.0:
   resolved "https://registry.yarnpkg.com/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
-tinacms@^0.55.2:
-  version "0.55.2"
-  resolved "https://registry.yarnpkg.com/tinacms/-/tinacms-0.55.2.tgz#9bd9965a719529da7969ae66465df585b067617f"
-  integrity sha512-Ld3owhjAubOjBTuRGrQLNMJDirQ/VU02T0VwL1jcQWcJrJQpLsXJZHVNgrWQDW76as3efWymZulQmtmXYu8zWQ==
+tinacms@^0.0.0-2021813202511:
+  version "0.0.0-2021813202511"
+  resolved "https://registry.yarnpkg.com/tinacms/-/tinacms-0.0.0-2021813202511.tgz#90c48681bb532f67e5dc509e0d5499c8b0b0f201"
+  integrity sha512-x/3mKh9W3dnlBf24dnHc5fpKIBzFmvU3I3civgvGlpjexZuDVHu7pYwmOrBDMbImYwvuxth/IQipeaL8JHB9kg==
   dependencies:
     "@graphql-codegen/core" "^1.15.4"
     "@graphql-codegen/typescript" "^1.15.4"
     "@graphql-codegen/typescript-operations" "^1.15.4"
-    "@tinacms/toolkit" "0.53.0"
+    "@tinacms/toolkit" "0.0.0-2021813202511"
     "@xstate/react" "^1.1.0"
     codemirror "^5.55.0"
     cors "^2.8.5"
