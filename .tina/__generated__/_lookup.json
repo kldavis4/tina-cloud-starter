@@ -104,12 +104,5 @@
     "type": "GlobalConnection",
     "resolveType": "collectionDocumentList",
     "collection": "global"
-  },
-  "AuthorsReferencesConnection": {
-    "type": "AuthorsReferencesConnection",
-    "resolveType": "multiCollectionDocumentList",
-    "collections": [
-      "posts"
-    ]
   }
 }
