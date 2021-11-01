@@ -99,6 +99,10 @@
                   "name": "color",
                   "options": [
                     {
+                      "label": "Kelly",
+                      "value": "kelly"
+                    },
+                    {
                       "label": "Primary",
                       "value": "primary"
                     },
@@ -848,6 +852,10 @@
                           "label": "Color",
                           "name": "color",
                           "options": [
+                            {
+                              "label": "Kelly",
+                              "value": "kelly"
+                            },
                             {
                               "label": "Primary",
                               "value": "primary"
