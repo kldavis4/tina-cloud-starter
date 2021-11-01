@@ -13,7 +13,7 @@ const iconSchema: TinaField = {
       options: [
         {
           label: "Kelly",
-          value: "kelly16",
+          value: "kelly17",
         },
         {
           label: "Primary",
