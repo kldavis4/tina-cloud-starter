@@ -52,6 +52,11 @@ const App = ({ Component, pageProps }) => {
 
               return createForm(formConfig);
             }}
+            tinaioConfig={{
+              frontendUrlOverride: process.env.NEXT_PUBLIC_TINA_URL,
+              contentApiUrlOverride: process.env.NEXT_PUBLIC_TINA_CONTENT_URL,
+              identityApiUrlOverride: process.env.NEXT_PUBLIC_TINA_IDENTITY_URL
+            }}
             {...pageProps}
           >
             {(livePageProps) => (
