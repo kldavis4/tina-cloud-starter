@@ -2,10 +2,10 @@
 
 
   "version": {
-    "fullVersion": "0.57.0",
+    "fullVersion": "0.57.1",
     "major": "0",
     "minor": "57",
-    "patch": "0"
+    "patch": "1"
   },
   "collections": [
     {
