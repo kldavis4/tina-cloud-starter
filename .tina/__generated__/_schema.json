@@ -5,10 +5,10 @@
 
 
   "version": {
-    "fullVersion": "0.57.2",
+    "fullVersion": "0.57.3",
     "major": "0",
     "minor": "57",
-    "patch": "2"
+    "patch": "3"
   },
   "collections": [
     {
